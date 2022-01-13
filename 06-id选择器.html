@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>id选择器</title>
+    <style>
+        /* id选择器口诀:样式#定义，结构id调用，只能调用一次，别人切勿使用! */
+        #red {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- div调用red属性：id=red -->
+    <div id="red">
+        id选择器可以为标有特定id的HTML元素指定特定样式。
+        HTML元素以id属性来设置id选择器，CSS中id选择器以井号"#"来定义。</div>
+    <br>
+    语法格式:
+    #id名 {
+    属性1:属性值1;
+    ...
+    }
+    <br>
+    id选择器口诀:样式#定义，结构id调用，只能调用一次，别人切勿使用!
+    <br>
+    id选择器和类选择器的区别:
+    1.类选择器(class)好比别人的名字，一个人可以有多个名字（姓名/艺名/昵称/小名等），同时一个名字也可以被多个人使用。
+    2.id选择器好比人的身份证号码，唯一的，不可重复。
+    3.两者最大的不同在于使用次数上。
+    4.类选择器在修改样式中用的最多，id选择器一般用于页面唯一性的元素上，经常和JavaScript搭配使用。
+</body>
+
+</html>

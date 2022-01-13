@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-类选择器</title>
+    <style>
+        /*   类选择器口诀：样式点定义，结构类(class)调用，一个或多个，开发最常用!   */
+        .red {
+            color: red;
+        }
+
+        .beijing {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li class="red">国家</li>
+        <li class="red">生僻字</li>
+        <li>江南style</li>
+        <li class="beijing">北京欢迎你</li>
+        <li>义勇军进行曲</li>
+        <li>我和我的祖国</li>
+    </ul>
+    <div class="red">我也想变红色</div>
+    <br>
+    类选择器口诀:样式点定义，结构类(class)调用，一个或多个，开发最常用!
+    <br>
+    应用场景:差异化选择不同标签，单独选择一个或某几个标签。
+    <br>
+    类选择器在HTML中以class属性表示，在CSS中以一个英文点号“.”表示。
+    <br>
+    注意:
+    1.不能使用标签名作为类名!!!
+    2.类选择器使用英文点号“.”表示，后面紧跟类名（自定义，自己命名）。
+    3.可以理解为给这个标签起了一个名字。
+    4.长名称或词组可以使用中横线"-"来为选择器命名。
+    5.不要使用纯数字、中文等命名，尽量使用英文字母来表示。
+    6.命名要有意义，尽量使别人一眼就知道这个类名的目的。
+    <br>
+    附:常用类命名规则
+    头:header
+    内容:content/container
+    尾:footer
+    左右中:left/right/center
+    导航:nav
+    子导航:subnav
+    侧栏:sidebar
+    栏目:column
+    登录条:loginbar
+    标志:logo
+    广告:banner
+    页面主体:main
+    热点:hot
+    新闻:news
+    下载:download
+    菜单:menu
+    子菜单:submenu
+    搜素:search
+    友情链接:friendlink
+</body>
+
+</html>

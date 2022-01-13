@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>通配符选择器</title>
+    <style>
+        * {
+            color: red;
+            /* 这里把html，body，p，div，span，li等等的标签都改为了红色 */
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>我的</p>
+    <div>我的</div>
+    <span>还是我的</span>
+    <ul>
+        <li>都是我的</li>
+    </ul>
+    <br>
+    通配符选择器
+    在CSS中，通配符选择器使用星号"*"定义，它表示选取页面中所有元素（标签）。
+    通配符选择器不需要调用，自动给所有的元素使用样式，特殊情况才使用。
+    语法:
+    * {
+    属性1:属性值1;
+    ...
+    }
+
+</body>
+
+</html>

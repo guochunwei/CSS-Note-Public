@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>类选择器特殊使用-多类名</title>
+    <style>
+        /* 盒子的宽和高及盒子内字体大小 */
+        .box {
+            width: 200px;
+            height: 100px;
+            font-size: 30px;
+        }
+
+        .red {
+            /* 背景颜色：红色 */
+            background-color: red;
+        }
+
+        .green {
+            /* 背景颜色：绿色 */
+            background-color: green;
+        }
+
+        .font20 {
+            /* body字体大小 */
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body class="font20">
+    多类名使用方式:
+    1.在标签class属性中写多个类名
+    2.多个类名中间必须用空格分开。
+    <br>
+    多类名开发中使用场景:
+    1.可以把一些标签元素相同的样式（共同的部分）放到一个类里面
+    2.这些标签都可以调用这个公共的类，然后再调用自己独有的类
+    3.节省CSS代码，方便统一修改。
+
+    <div class="box red">红色</div>
+    <div class="box green">绿色</div>
+    <div class="box red">红色</div>
+</body>
+
+</html>
